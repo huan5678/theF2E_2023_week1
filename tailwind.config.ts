@@ -90,7 +90,6 @@ const config: Config = {
           {
             fontWeight: '500',
             lineHeight: '2rem',
-            letterSpacing: '2rem',
           },
         ],
         h1: [

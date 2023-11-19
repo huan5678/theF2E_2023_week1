@@ -129,13 +129,13 @@ const PolicyIssues = () => {
   return (
     <main
       ref={mainRef}
-      className="relative max-h-[87.5vh] overflow-y-scroll bg-blue-80 md:snap-y md:snap-mandatory scroll-smooth"
+      className="relative max-h-[87.5svh] overflow-y-scroll bg-blue-80 md:snap-y md:snap-mandatory scroll-smooth"
     >
       {policyList.map((policy, index) => (
         <section
           id={`policy-${policy.id}`}
           key={policy.id}
-          className="flex flex-col w-full md:h-[87.5vh] md:flex-row md:snap-start"
+          className="flex flex-col w-full md:h-[87.5svh] md:flex-row md:snap-start"
         >
           <div
             className="relative flex-auto h-[50vh] bg-cover bg-center bg-no-repeat md:h-full md:w-1/2 md:flex-shrink-0"
